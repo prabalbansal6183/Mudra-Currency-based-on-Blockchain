@@ -14,8 +14,6 @@ Through this endpoint we can register new network node into our decnetralised ne
 ### 5. '/consensus'
 Consensus algorihtm is used when a new node is registered then for updating the contents of all the nodes to this new node they all have to come to an aggrement and then the value gets updated. Here in this project we have use a Longest chian Algorithm.
 
-# Blockchain DataStructure
-
 # Run in you Local System
 For installing all the dependancy we can initially run this command
 ```
