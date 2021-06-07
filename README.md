@@ -8,7 +8,12 @@ This is the Post API whose work is to take the new transaction data and add it t
 ### 2. '/transaction/broadcast'
 This is also a Post API, That is used to broadcast the updated transaction to all the network nodes connected with each other and uses the javaScript promisies to bind the all the request into and array and send it.
 ### 3. '/mine' 
-This is 
+This is a Get endpoint whose work is to mine the block and to update the transactions form pending transaction to the transaction object. Inside this the **'/transaction/broadcast'** endpoint also hit to update all the decentralised network nodes.
+### 4. '/register-and-broadcast-node'
+Through this endpoint we can register new network node into our decnetralised network and broadcast it into all the network nodes inside this endpoint two more endpoints got hit , for register a node on each node **'/register-node'** and for bulk registration when a new node is entered we encounter the **'/register-nodes-bulk'**.
+### 5. '/consensus'
+Consensus algorihtm is used when a new node is registered then for updating the contents of all the nodes to this new node they all have to come to an aggrement and then the value gets updated. Here in this project we have use a Longest chian Algorithm.
+
 # Mudra-Currency-based-on-Blockchain
 Uses Javascript and Postman
 
