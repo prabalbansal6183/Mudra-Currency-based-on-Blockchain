@@ -35,7 +35,6 @@ Now we can expose the html file through vscode live server extension of simply r
 Then using Postman we can talk with all the endpoints and update, insert Transactions according to our requirements.
 
 
-  ```
 
   
  
