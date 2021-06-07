@@ -14,25 +14,29 @@ Through this endpoint we can register new network node into our decnetralised ne
 ### 5. '/consensus'
 Consensus algorihtm is used when a new node is registered then for updating the contents of all the nodes to this new node they all have to come to an aggrement and then the value gets updated. Here in this project we have use a Longest chian Algorithm.
 
-# Mudra-Currency-based-on-Blockchain
-Uses Javascript and Postman
+# Blockchain DataStructure
 
-# Prerequisite
-  Basic Knowledge of Linux Commands and Postman.
-  Javascript and HTML,CSS
-
-
-# How to Start 
-  ```
-  npm start
-  ```
+# Run in you Local System
+For installing all the dependancy we can initially run this command
+```
+npm install 
+```
+For creating a decentralised network we eposed the same code through different port numbers. And for it smoothly we derive some scripts in package.json file.
+So for running these nodes we can simply run these command in different terminals simultaneously.
   Run Nodes 
   ```
   npm run node_1
   npm run node_2
   npm run node_3
   npm run node_4
+  npm run node_5
   ```
+Now we can expose the html file through vscode live server extension of simply run the index.html file to run the Block Explorer for searching the transactions through BlockhashId, BlockAddress and Transacttion id.
+Then using Postman we can talk with all the endpoints and update, insert Transactions according to our requirements.
+
+
+  ```
+
   
  
 
