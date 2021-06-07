@@ -3,6 +3,7 @@ Uses Javascript and Postman
 
 # Prerequisite
   Basic Knowledge of Linux Commands and Postman.
+  Javascript and HTML,CSS
 
 
 # How to Start 
