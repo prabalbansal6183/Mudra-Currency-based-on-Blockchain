@@ -15,6 +15,7 @@ Through this endpoint we can register new network node into our decnetralised ne
 Consensus algorihtm is used when a new node is registered then for updating the contents of all the nodes to this new node they all have to come to an aggrement and then the value gets updated. Here in this project we have use a Longest chian Algorithm.
 
 # Run in you Local System
+Clone this repository and for running follow these below steps:-
 For installing all the dependancy we can initially run this command
 ```
 npm install 
