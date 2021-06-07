@@ -13,7 +13,10 @@ This is a Get endpoint whose work is to mine the block and to update the transac
 Through this endpoint we can register new network node into our decnetralised network and broadcast it into all the network nodes inside this endpoint two more endpoints got hit , for register a node on each node **'/register-node'** and for bulk registration when a new node is entered we encounter the **'/register-nodes-bulk'**.
 ### 5. '/consensus'
 Consensus algorihtm is used when a new node is registered then for updating the contents of all the nodes to this new node they all have to come to an aggrement and then the value gets updated. Here in this project we have use a Longest chian Algorithm.
-
+# Blockchain DataStructure
+![Blockchain_DS](images/Blockchain_Ds.png)
+# Block Explorer
+![Block_Explorer](/images/Block-Explorer.png)
 # Run in you Local System
 Clone this repository and for running follow these below steps:-
 For installing all the dependancy we can initially run this command
